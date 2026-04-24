@@ -45,7 +45,9 @@
 
 
 @media screen and (min-width:768px) {
-
+.main{
+    padding-left: 2em;
+}
 .mobile-unicorn{
     display: none;
 }
@@ -56,6 +58,7 @@
 .big-unicorn{
     display: block;
     margin-left: 50px;
+    width: 85%;
 }
 .content{
     flex-direction: row;
@@ -79,16 +82,18 @@
     }
     .big-unicorn{
         position: absolute;
-        top: -50px;
+        top: -10px;
         left: 50%;
+        max-width: 786px;
+        width: 45%;
     }
     .title{
-        margin-left: -56px;
+        margin-left: 56px;
     }
     .content{
         position: relative;
         top: 120px;
-        left: 200px;
+        padding-left: 200px;
     }
     .main-social{
         margin-left: 56px;

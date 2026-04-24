@@ -20,11 +20,10 @@ h1, h2{
 .wrapper{
     background-image: linear-gradient(90deg, white 70px, yellow 70px);
     margin-bottom: 50px;
-    margin-left: 10em;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1200px) {
     .wrapper{
-        background-image: '';
+        background-image: linear-gradient(90deg, white 250px, yellow 70px);
     }
 }

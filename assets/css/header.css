@@ -58,7 +58,6 @@
 }
 .burger:hover~.menu{
     display: flex;
-    background-repeat:no-repeat;
 }
 .burger:hover{
     background-image: url(../icons/x.png);
@@ -79,8 +78,8 @@
         flex-direction: row;
         list-style: none;
         color: black;
-        font-size: 20px;
-        font-weight: 600;
+        /* font-size: 20px; */
+        /* font-weight: 600; */
         margin-right: 60px;
         position: static;
         background-color: transparent;
@@ -92,8 +91,8 @@
         display: inline-block;
         padding: 30px;
         text-transform: none;
-        font-weight: 900;
-        font-size: 32px;
+        font-weight: 600;
+        font-size: 20px;
         font-family: Montserrat, sans-serif;
     }
     .active{
