@@ -1,0 +1,76 @@
+.main{
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.title{
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.mobile-unicorn{
+    display: block;
+    margin: 70px auto;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    padding: 40px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.more img{
+    margin-top: 10px;
+}
+.text{
+    width: 50%;
+    font-weight: 600;
+}
+.big-unicorn{
+    display: none;
+}
+.main-social{
+    display: none;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+.mobile-unicorn{
+    display: none;
+}
+.flex{
+    display: flex;
+    margin-top: 50px;
+}
+.big-unicorn{
+    display: block;
+    margin-left: 50px;
+}
+.content{
+    flex-direction: row;
+}
+.title{
+    font-size: 72px;
+}
+.text{
+    font-size: 24px;
+    margin-left: 30px;
+}
+.main-social{
+    display: block;
+}
+}
+
+@media screen and (min-width:1200px) {
+
+}
