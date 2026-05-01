@@ -21,10 +21,12 @@ body{
 .achievs{
     display: flex;
     flex-wrap: wrap;
+    gap: 2em;
+    padding: 3%;
 }
 
 .achive{
-    width: 30%;
+    width: 40%;
 }
 .achive h3{
     font-size: 24px;
@@ -49,7 +51,7 @@ body{
         font-size: 24px;
     }
     .achive{
-        width: 35%;
+        width: 45%;
     }
     .achive h3{
         font-size: 44px;

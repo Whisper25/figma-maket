@@ -1,7 +1,13 @@
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .main-contact{
     display: flex;
     flex-direction: column;
     padding: 15px;
+    flex-grow: 1;
 }
 .title{
     font-size: 32px;
@@ -41,6 +47,7 @@
     top: 40%;
     left: 45%;
 }
+
 @media screen and (min-width: 768px) {
     .title{
         font-size: 72px;
